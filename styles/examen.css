@@ -1,0 +1,48 @@
+.site-header h1 {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: coral;
+  padding: 70px;
+  line-height: normal;
+}
+
+.main-nav p{
+  align-items: center;
+  text-align: center;
+  
+}
+.open-menu {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 20;
+  font-size: 26px;
+  background: #5c3007;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.side-menu ul{
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #e06a8c;
+  font-weight: bold;
+}
+.galeria-grid img {
+  transition: transform 0.3s; 
+  height: 200px;
+  object-position: center;
+}
+
+.galeria-grid img:hover {
+  transform: scale(1.1);
+  border-radius: 2px;
+  bottom: auto;
+}
