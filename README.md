@@ -92,14 +92,14 @@ El css:
 
   ## 3A. 
   El html:
-    ```
-    <section id="galeria">
-            <h2>Imagen examen</h2>
-                <div class="galeria-grid">
-                    <img src="./img/examen.png" alt="Examen" link="https://share.google/images/Xg70PaD2P77HV8HFv">
-                </div>
-        </section>
-        ```
+   ```
+   <section id="galeria">
+     <h2>Imagen examen</h2>
+       <div class="galeria-grid">
+         <img src="./img/examen.png" alt="Examen" link="https://share.google/images/Xg70PaD2P77HV8HFv">
+       </div>
+   </section>
+   ```
 El css:
 ```
 .galeria-grid img {
